@@ -111,7 +111,7 @@ using AntDesign;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 75 "D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Client\Shared\MainLayout.razor"
+#line 86 "D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Client\Shared\MainLayout.razor"
        
     bool collapsed;
 

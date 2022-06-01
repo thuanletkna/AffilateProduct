@@ -8,52 +8,63 @@
             <Menu Theme="MenuTheme.Dark" DefaultSelectedKeys=@(new[]{"1"}) Mode="MenuMode.Inline">
                 <MenuItem Key="1">
                     <Icon Type="pie-chart" Theme="outline" />
-                    <span>Option 1</span>
+                    <span>Trang chủ</span>
                 </MenuItem>
-                <MenuItem Key="2">
+                @*<MenuItem Key="2">
                     <Icon Type="desktop" Theme="outline" />
                     <span>Option 2</span>
-                </MenuItem>
+                </MenuItem>*@
                 @{
                     RenderFragment sub1Title =
                     @<span>
                         <Icon Type="user" Theme="outline" />
-                        <span>User</span>
+                        <span>Bài đăng</span>
                     </span>;
                 }
                 <SubMenu Key="sub1" TitleTemplate=sub1Title>
-                    <MenuItem Key="3">Tom</MenuItem>
-                    <MenuItem Key="4">Bill</MenuItem>
-                    <MenuItem Key="5">Alex</MenuItem>
+                    <MenuItem Key="3">Danh sách</MenuItem>
+                    <MenuItem Key="4">Thêm mới</MenuItem>
+                    @*<MenuItem Key="5"></MenuItem>*@
                 </SubMenu>
                 @{
                     RenderFragment sub2Title =
                     @<span>
                         <Icon Type="team" Theme="outline" />
-                        <span>Team</span>
+                        <span>Sản phẩm</span>
                     </span>;
                 }
                 <SubMenu Key="sub2" TitleTemplate=sub2Title>
-                    <MenuItem Key="6">Team 1</MenuItem>
-                    <MenuItem Key="8">Team 2</MenuItem>
+                    <MenuItem Key="6">Danh sách</MenuItem>
+                    <MenuItem Key="8">Thêm mới</MenuItem>
                 </SubMenu>
-                <MenuItem Key="9">
+                @{
+                    RenderFragment sub3Title =
+                    @<span>
+                        <Icon Type="team" Theme="outline" />
+                        <span>Danh mục</span>
+                    </span>;
+                }
+                <SubMenu Key="sub3" TitleTemplate=sub3Title>
+                    <MenuItem Key="10">Danh sách</MenuItem>
+                    <MenuItem Key="11">Thêm mới</MenuItem>
+                </SubMenu>
+                @*<MenuItem Key="9">
                     <Icon Type="file" Theme="outline" />
-                </MenuItem>
+                </MenuItem>*@
             </Menu>
         </Sider>
         <Layout Class="site-layout">
             <Header Class="site-layout-background" Style=" padding: 0 ;"></Header>
             <Content Style="margin:0 16px;">
                 <Breadcrumb Style="margin:16px 0;">
-                    <BreadcrumbItem>User</BreadcrumbItem>
-                    <BreadcrumbItem>Bill</BreadcrumbItem>
+                    @*<BreadcrumbItem>User</BreadcrumbItem>
+                    <BreadcrumbItem>Bill</BreadcrumbItem>*@
                 </Breadcrumb>
                 <div class="site-layout-background" style="padding: 24; min-height: 360px">
                     @Body
                 </div>
             </Content>
-            <Footer Style="text-align:center ">Ant Design ©2018 Created by Ant UED</Footer>
+            <Footer Style="text-align:center ">CopyRight ©2022 Created by Lê Xuân Thuận</Footer>
         </Layout>
     </Layout>
     @*<div class="page">
