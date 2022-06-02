@@ -212,6 +212,7 @@
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
+      "AffilateSource.Shared.pdb": "sha256-W6F6\/wyhI5LeULtGShqot69ZRpT\/ia2UDnD\/sBNrCMk=",
       "AffilateSource.Client.pdb": "sha256-wmLb+ua7tmwj3N161Zw0M81AK+Gfh8jmkwWNQGR1LbA="
     },
     "runtime": {
