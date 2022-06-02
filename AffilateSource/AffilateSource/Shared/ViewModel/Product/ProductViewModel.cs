@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductAffilate.ViewModel.ViewModel.Product
+namespace AffilateSource.Shared.ViewModel.Product
 {
     public class ProductViewModel
     {

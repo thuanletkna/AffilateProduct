@@ -105,3 +105,15 @@ D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\o
 D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.dll
 D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\ref\AffilateSource.Shared.dll
 D:\AffilateProduct_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.pdb
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\bin\Debug\net5.0\AffilateSource.Shared.deps.json
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\bin\Debug\net5.0\AffilateSource.Shared.dll
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\bin\Debug\net5.0\AffilateSource.Shared.pdb
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.csproj.AssemblyReference.cache
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.AssemblyInfoInputs.cache
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.AssemblyInfo.cs
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.csproj.CoreCompileInputs.cache
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.dll
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\refint\AffilateSource.Shared.dll
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\AffilateSource.Shared.pdb
+D:\AffilateSource_Github\AffilateProduct\AffilateSource\AffilateSource\Shared\obj\Debug\net5.0\ref\AffilateSource.Shared.dll

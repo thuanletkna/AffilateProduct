@@ -10298,23 +10298,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thuan Le\\.nuget\\packages\\": {},
+    "C:\\Users\\lthua\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\AffilateSource.Server.csproj",
+      "projectUniqueName": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\AffilateSource.Server.csproj",
       "projectName": "AffilateSource.Server",
-      "projectPath": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\AffilateSource.Server.csproj",
-      "packagesPath": "C:\\Users\\Thuan Le\\.nuget\\packages\\",
-      "outputPath": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\obj\\",
+      "projectPath": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\AffilateSource.Server.csproj",
+      "packagesPath": "C:\\Users\\lthua\\.nuget\\packages\\",
+      "outputPath": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thuan Le\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lthua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10323,21 +10323,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 3.0.0": {},
+        "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.28.0": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\AffilateSource.Data\\AffilateSource.Data.csproj": {
-              "projectPath": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\AffilateSource.Data\\AffilateSource.Data.csproj"
+            "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\AffilateSource.Data\\AffilateSource.Data.csproj": {
+              "projectPath": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\AffilateSource.Data\\AffilateSource.Data.csproj"
             },
-            "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Client\\AffilateSource.Client.csproj": {
-              "projectPath": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Client\\AffilateSource.Client.csproj"
+            "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Client\\AffilateSource.Client.csproj": {
+              "projectPath": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Client\\AffilateSource.Client.csproj"
             },
-            "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Shared\\AffilateSource.Shared.csproj": {
-              "projectPath": "D:\\AffilateProduct_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Shared\\AffilateSource.Shared.csproj"
+            "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Shared\\AffilateSource.Shared.csproj": {
+              "projectPath": "D:\\AffilateSource_Github\\AffilateProduct\\AffilateSource\\AffilateSource\\Shared\\AffilateSource.Shared.csproj"
             }
           }
         }
@@ -10395,7 +10395,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

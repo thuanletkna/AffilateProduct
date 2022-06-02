@@ -1,6 +1,5 @@
 ﻿using AffilateSource.Shared.ViewModel;
 using AffilateSource.Shared.ViewModel.Product;
-using ProductAffilate.ViewModel.ViewModel.Product;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Telerik.DataSource;

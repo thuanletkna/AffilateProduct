@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Components.Web;
 using AffilateSource.Shared.ViewModel.Post;
 using AffilateSource.Shared.ViewModel.Category;
 using AffilateSource.Shared.ViewModel.Product;
-using ProductAffilate.ViewModel.ViewModel.Product;
 
 namespace AffilateSource.Client.Pages.Product
 {

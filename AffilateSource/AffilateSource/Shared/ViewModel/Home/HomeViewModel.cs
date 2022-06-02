@@ -1,17 +1,17 @@
 ﻿
 using AffilateSource.Shared.ViewModel.Category;
 using AffilateSource.Shared.ViewModel.Post;
-using ProductAffilate.ViewModel.ViewModel.Product;
+using AffilateSource.Shared.ViewModel.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProductAffilate.ViewModel.ViewModel.Home
+namespace AffilateSource.Shared.ViewModel.Home
 {
     public class HomeViewModel
     {
-        
+
         public List<CategoryQuickVM> GetCategoryHome { get; set; }
         public List<CategoryQuickVM> GetcategoryByParentId { get; set; }
         public List<CategoryQuickVM> GetDanhMucKhuyenMai { get; set; }
@@ -20,6 +20,6 @@ namespace ProductAffilate.ViewModel.ViewModel.Home
         public IEnumerable<ProductHomeViewModel> GetProductByViewCount { get; set; }
         public IEnumerable<PostHomeViewModel> GetPostHome { get; set; }
         public IEnumerable<PostHomeViewModel> GetPostCreateDate { get; set; }
-        
+
     }
 }

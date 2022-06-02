@@ -778,6 +778,9 @@ namespace AffilateSource.Server.DataEntity.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
+                    b.Property<int>("PriceSale")
+                        .HasColumnType("int");
+
                     b.Property<string>("SeoAlias")
                         .IsRequired()
                         .HasMaxLength(500)

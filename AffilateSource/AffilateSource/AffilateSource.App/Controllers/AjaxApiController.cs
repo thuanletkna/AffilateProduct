@@ -1,7 +1,7 @@
 ﻿using AffilateSource.Data.Services.Interface;
 using AffilateSource.Shared.ViewModel.Post;
+using AffilateSource.Shared.ViewModel.Product;
 using Microsoft.AspNetCore.Mvc;
-using ProductAffilate.ViewModel.ViewModel.Product;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

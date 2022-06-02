@@ -1,5 +1,5 @@
-﻿using ProductAffilate.ViewModel.ViewModel.Post;
-using ProductAffilate.ViewModel.ViewModel.Product;
+﻿using AffilateSource.Shared.ViewModel.Product;
+using ProductAffilate.ViewModel.ViewModel.Post;
 using System;
 using System.Collections.Generic;
 using System.Linq;

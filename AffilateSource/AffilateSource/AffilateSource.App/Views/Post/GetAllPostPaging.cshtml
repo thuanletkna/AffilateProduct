@@ -20,8 +20,8 @@
     <div class="breadcrumb-row">
         <div class="container">
             <ul class="list-inline">
-               @* <li><a href="javascript:void(0);">Home</a></li>
-                <li>Blog large image left sidebar</li>*@
+                @* <li><a href="javascript:void(0);">Home</a></li>
+                    <li>Blog large image left sidebar</li>*@
             </ul>
         </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="section-full content-inner">
         <div class="container">
             <div class="row">
-               @await Component.InvokeAsync("LeftSideBar")
+                @await Component.InvokeAsync("LeftSideBar")
                 <!-- Left part start -->
                 <div class="col-lg-9 col-md-7">
                     @foreach (var item in Model.GetAllPostByCategoryIdPaging.Data)
@@ -63,15 +63,7 @@
                         </div>
                     }
                     <!-- Pagination start -->
-                    <div class="pagination-bx m-b30">
-                        <ul class="pagination">
-                            <li class="previous"><a href="javascript:void(0);"><i class="fa fa-angle-double-left"></i></a></li>
-                            <li class="active"><a href="javascript:void(0);">1</a> </li>
-                            <li><a href="javascript:void(0);">2</a></li>
-                            <li><a href="javascript:void(0);">3</a></li>
-                            <li class="next"><a href="javascript:void(0);"><i class="fa fa-angle-double-right"></i></a></li>
-                        </ul>
-                    </div>
+                    @(await Component.InvokeAsync("Pager", Model.GetAllPostByCategoryIdPaging))
                     <!-- Pagination END -->
                 </div>
                 <!-- Left part END -->

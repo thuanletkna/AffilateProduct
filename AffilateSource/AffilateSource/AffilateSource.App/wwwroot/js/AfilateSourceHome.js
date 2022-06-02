@@ -49,7 +49,7 @@ function listProductHome(id) {
                 html +=
                     '<li class="home card-container col-lg-3 col-md-3 col-sm-6 col-6">' +
                     '                                <div class="dez-box dez-gallery-box">' +
-                    '                                    <div class="dez-media"> <a href="/product/' + item.seoAlias + '-' + item.id + '"><img src="https://localhost:44325' + item.imageProducts + ' "style="width:376px; height:236px" alt="' + item.title + '"></a> </div>' +
+                '                                    <div class="dez-media"> <a href="/product/' + item.seoAlias + '-' + item.id + '"><img src="https://admin.vuonhoala.vn' + item.imageProducts + ' "style="width:376px; height:236px" alt="' + item.title + '"></a> </div>' +
                     '                                    <div class="dez-info p-a20 text-center bg-gray" style="background-color: #daeded;">' +
                     '                                        <div class="p-lr20">' +
                     '                                            <h4 style="padding: 10px;" class="m-a0 bg-primary service-head"><a href="javascript:void(0);">' + item.categoryName + '</a></h4>' +
@@ -104,7 +104,7 @@ function listPostHome(id) {
             $.each(data, function (i, item) {
                 html +=
                     '<div class="blog-post blog-md clearfix">' +
-                '                                            <div class="dez-post-media-style dez-img-effect zoom-slow"> <a href="/details/' + item.seoAlias + '-' + item.id + '"><img src="https://localhost:44325' + item.imagePost + '" style="width:250px; height:150px" alt="' + item.title + '"></a> </div>' +
+                '                                            <div class="dez-post-media-style dez-img-effect zoom-slow"> <a href="/details/' + item.seoAlias + '-' + item.id + '"><img src="https://admin.vuonhoala.vn' + item.imagePost + '" style="width:250px; height:150px" alt="' + item.title + '"></a> </div>' +
                     '                                            <div class="dez-post-info" >' +
                     '                                                <div class="dez-post-title ">' +
                 '                                                    <h5 style="overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 1;display: -webkit-box;-webkit-box-orient: vertical;" class="post-title"><a href="/details/' + item.seoAlias + '-' + item.id + '">' + item.title + '</a></h5>' +

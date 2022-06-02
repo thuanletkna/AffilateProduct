@@ -23,6 +23,7 @@ namespace AffilateSource.Data.Extensions
             services.AddTransient<IProductServices, ProductServices>();
             services.AddTransient<ISequenceService, SequenceService>();
             services.AddTransient<IStorageService,FileStorageService>();
+            services.AddTransient<IContactServices,ContactServices>();
             var sqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("DefaultConnection"));
             services.AddSingleton(sqlConnectionConfiguration);
             return services;

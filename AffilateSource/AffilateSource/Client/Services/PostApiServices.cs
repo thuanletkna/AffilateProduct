@@ -4,7 +4,6 @@ using AffilateSource.Shared.ViewModel.Filter;
 using AffilateSource.Shared.ViewModel.Post;
 using AffilateSource.Shared.ViewModel.Product;
 using Microsoft.AspNetCore.Components;
-using ProductAffilate.ViewModel.ViewModel.Product;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;

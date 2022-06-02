@@ -8,7 +8,6 @@ using AffilateSource.Shared.ViewModel;
 using AffilateSource.Shared.ViewModel.Product;
 using Dapper;
 using Microsoft.Data.SqlClient;
-using ProductAffilate.ViewModel.ViewModel.Product;
 using System;
 using System.Collections.Generic;
 using System.Data;

@@ -40,6 +40,7 @@ namespace AffilateSource.Data.DataEntity.Entities
         public bool isAffilate { get; set; }
 
         public int Price { get; set; }
+        public int PriceSale { get; set; }
 
         [Required]
         [MaxLength(50)]

@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AffilateSource.App.Models;
-using ProductAffilate.ViewModel.ViewModel.Home;
 using AffilateSource.Data.Services.Interface;
+using AffilateSource.Shared.ViewModel.Home;
 
 namespace AffilateSource.App.Controllers
 {
